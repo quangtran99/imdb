@@ -36,3 +36,92 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+.card-place{
+  cursor: pointer;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; /* Increase/Decrease this value for cross-browser compatibility */
+}
+
+.card-place::-webkit-scrollbar{
+  display: none;
+}
+
+
+.card .card-body {
+  text-align: center;
+  border: 2px solid white;
+  background-color: rgba(255, 255, 255, 0)!important;
+  padding: 20px 20px 40px 20px!important;
+  transition: all 0.2s;
+}
+
+
+
+
+.card:hover .card-body .title-chinh {
+  background-color: rgba(128, 128, 128, 0);
+  font-size: 40px;
+}
+
+.card:hover .card-body {
+  color: antiquewhite;
+  background-color: rgba(0, 0, 0, 0.5)!important;
+  opacity: 1;
+}
+
+.information-card {
+  display: none;
+  transition: 0.5s;
+}
+
+.card:hover .card-body .information-card {
+  opacity: 1;
+  display: inline;
+}
+.card:hover .card-body  .title-name{
+  font-size: 25px;
+}
+
+.title-name {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: white;
+  transition: 0.5s;
+}
+
+.myVideo iframe {
+  bottom: 0;
+  min-width: 53vw;
+  min-height: 60vh;
+ }
+
+ .modal-content {
+   background-color:transparent !important ;
+   border: none !important;
+ }
+
+ .background-body {
+   background-color: black;
+ }
+
+.sort-color a {
+  color:orange !important;
+}
+
+.name-color {
+  color:red !important;
+}
+
+.nav-background {
+  background-color: transparent !important;
+}
+
+.button-border button {
+  border-color: blue !important; 
+}
